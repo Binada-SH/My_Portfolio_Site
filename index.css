@@ -1,4 +1,16 @@
 body {
     font-family: Jura;
     background-color: black;
+    margin: 0;
+}
+li {
+    margin-top: 3rem;
+    margin-left: 110rem;
+}
+a {
+    font-size: 28px;
+    padding: 13px;
+    font-family: Jura;
+    text-decoration: none;
+    color: white;
 }
