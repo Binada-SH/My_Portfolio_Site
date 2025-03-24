@@ -1,4 +1,3 @@
-/* Base styles and reset */
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +6,7 @@
 
 body {
     font-family: 'Jura', sans-serif;
-    background: linear-gradient(135deg, #000000, #333333);
+    background: linear-gradient(135deg, #000000, #242424);
     color: white;
     height: 100vh;
     overflow: hidden;
@@ -20,7 +19,6 @@ body {
     position: relative;
 }
 
-/* Navigation */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -88,7 +86,6 @@ body {
     transition: all 0.3s ease;
 }
 
-/* Main content */
 .content {
     display: flex;
     flex-direction: column;
@@ -169,7 +166,6 @@ h1 {
     opacity: 1;
 }
 
-/* Decoration */
 .decoration {
     position: absolute;
     top: 20%;
@@ -223,7 +219,6 @@ h1 {
     }
 }
 
-/* Responsive styles */
 @media screen and (max-width: 768px) {
     h1 {
         font-size: 3.5rem;

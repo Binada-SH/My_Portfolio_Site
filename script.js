@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', function() {
         navMenu.classList.toggle('active');
     });
 
-    // Close mobile menu when clicking a nav link
     const navLinks = document.querySelectorAll('.nav-menu a');
     navLinks.forEach(link => {
         link.addEventListener('click', () => {
@@ -16,30 +15,15 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Animate elements on page load
     const content = document.querySelector('.content');
     const decoration = document.querySelector('.decoration');
-    
     setTimeout(() => {
         content.style.opacity = '1';
         content.style.transform = 'translateY(0)';
         decoration.style.opacity = '1';
     }, 100);
-
-    // Add subtle parallax effect
-    document.addEventListener('mousemove', (e) => {
-        const mouseX = e.clientX / window.innerWidth;
-        const mouseY = e.clientY / window.innerHeight;
-        
-        const header = document.querySelector('.header');
-        const circle = document.querySelector('.circle');
-        
-        header.style.transform = `translate(${mouseX * -10}px, ${mouseY * -10}px)`;
-        circle.style.transform = `translate(${mouseX * 20}px, ${mouseY * 20}px)`;
-    });
 });
 
-// Add some scroll animations
 window.addEventListener('scroll', () => {
     const scrollPosition = window.scrollY;
     const header = document.querySelector('.header');
