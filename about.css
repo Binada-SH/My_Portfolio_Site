@@ -95,63 +95,40 @@ body {
     height: 75vh;
     max-width: 1200px;
     margin: 0 auto;
-    margin-top: 2.3rem;
     position: relative;
     z-index: 1;
 }
 
-.welcome-text {
-    font-family: 'Kanit', sans-serif;
-    font-size: 1.2rem;
-    font-weight: 300;
-    margin-bottom: 2rem;
-    letter-spacing: 2px;
-    opacity: 0.8;
+.about-text {
+    display: block;
+    margin-top: -26rem;
 }
-
-.header {
-    margin-bottom: 3rem;
-}
-
 h1 {
-    
-    font-size: 6rem;
-    font-weight: 700;
-    font-style: bold;
-    letter-spacing: 1px;
+    font-size: 2.5rem;
     line-height: 1;
-    margin-bottom: 1.5rem;
     background: linear-gradient(90deg, #fff, #aaa);
     background-clip: text;
     color: transparent;
 }
 
-.slogan h3 {
-    font-size: 1.5rem;
-    font-weight: 400;
-    margin-bottom: 2rem;
-    font-family: 'Kanit', sans-serif;
-    letter-spacing: 1px;
+.about-description {
+    width: 630px;
+    height: auto;
+    margin-top: 2rem;
 }
 
-.cta-button {
-    background: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    color: white;
-    padding: 1rem 2rem;
-    font-family: 'Jura', sans-serif;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    backdrop-filter: blur(10px);
-    letter-spacing: 1px;
+.about-description p {
+    text-align: justify;
+    font-family: "Kanit";
+    font-size: 20px;
+    line-height: 2.6rem;
+    letter-spacing: 2px;
+
 }
 
-.cta-button:hover {
-    background: rgba(255, 255, 255, 0.2);
-    transform: translateY(-2px);
+.skills-section {
+    
 }
-
 .social-icons {
     display: flex;
     gap: 1.5rem;
