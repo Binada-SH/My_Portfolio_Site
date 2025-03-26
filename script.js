@@ -33,4 +33,5 @@ window.addEventListener('scroll', () => {
     } else {
         header.style.opacity = 1;
     }
+    
 });
