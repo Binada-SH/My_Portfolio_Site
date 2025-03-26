@@ -21,7 +21,7 @@ body {
 
 .navbar {
     margin-top: 4rem;
-    margin-right: 23rem;
+    margin-left: 100rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
