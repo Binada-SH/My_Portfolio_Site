@@ -100,30 +100,18 @@ body {
     z-index: 1;
 }
 
-.welcome-text {
-    font-family: 'Kanit', sans-serif;
-    font-size: 1.2rem;
-    font-weight: 300;
-    margin-bottom: 2rem;
-    letter-spacing: 2px;
-    opacity: 0.8;
-}
-
 .header {
     margin-bottom: 3rem;
 }
 
 h1 {
-    
+    font-family: "Jura";
     font-size: 6rem;
-    font-weight: 700;
     font-style: bold;
-    letter-spacing: 1px;
     line-height: 1;
     margin-bottom: 1.5rem;
     background: linear-gradient(90deg, #fff, #aaa);
     background-clip: text;
-    color: transparent;
 }
 
 .slogan h3 {
@@ -147,6 +135,10 @@ h1 {
     letter-spacing: 1px;
 }
 
+.cta-button a {
+    text-decoration: none;
+    color: #ffffff;
+}
 .cta-button:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
