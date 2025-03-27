@@ -60,7 +60,6 @@ body {
 }
 
 .nav-menu a::after {
-    content: '';
     position: absolute;
     width: 0;
     height: 2px;
@@ -169,27 +168,39 @@ h1 {
 .copyrights h6 {
     color: #242424;
 }
-
 @media screen and (max-width: 768px) {
+    .container {
+        height: 100vh;
+        padding: 1rem;
+    }
+    
+    .navbar {
+        margin-top: 1rem;
+        margin-left: 0;
+        justify-content: flex-end;
+    }
+
     h1 {
         font-size: 3.5rem;
     }
 
     .nav-menu {
         position: fixed;
-        left: -100%;
-        top: 5rem;
+        right: -100%; /* Change from left to right */
+        top: 0;
+        height: 100vh;
+        width: 70%; /* Adjust width as needed */
         flex-direction: column;
         background: rgba(0, 0, 0, 0.9);
-        width: 100%;
         text-align: center;
         transition: 0.3s;
-        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+        box-shadow: -10px 0 27px rgba(0, 0, 0, 0.05);
         z-index: 10;
+        padding-top: 4rem;
     }
 
     .nav-menu.active {
-        left: 0;
+        right: 0; /* Change from left to right */
     }
 
     .nav-menu li {
@@ -198,6 +209,8 @@ h1 {
 
     .menu-toggle {
         display: block;
+        z-index: 11;
+        position: relative;
     }
 
     .menu-toggle.active .bar:nth-child(2) {
@@ -210,27 +223,49 @@ h1 {
 
     .menu-toggle.active .bar:nth-child(3) {
         transform: translateY(-7px) rotate(-45deg);
-    } 
+    }
+
+    .content {
+        margin-top: 1rem;
+        text-align: center;
+        align-items: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 430px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .container {
+        padding: 0.5rem;
+    }
+
+    .content {
+        margin: auto;
+    }
     h1 {
-        font-size: 2.5rem;
+        text-align: left;
+        font-size: 2.8rem;
     }
-
-    .welcome-text {
-        font-size: 1rem;
+    
+    .slogan h3{
+        margin-top: -10px;
     }
-
     .slogan h3 {
         font-size: 1.2rem;
     }
 
-    .decoration {
-        display: none;
-    }
-
     .content {
         height: 70vh;
+    }
+
+    .cta-button {
+        width: 80%;
+        padding: 0.8rem 1.5rem;
     }
 }
