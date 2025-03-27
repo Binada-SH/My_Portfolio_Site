@@ -28,15 +28,6 @@ body {
     padding: 1.5rem 0;
 }
 
-.logo {
-    font-size: 2rem;
-    font-weight: 700;
-    background: linear-gradient(90deg, #fff, #aaa);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-}
-
 .nav-menu {
     display: flex;
     list-style: none;
@@ -114,7 +105,7 @@ body {
 .about-text h1 {
     font-size: 2.5rem;
     line-height: 1;
-    background: linear-gradient(90deg, #fff, #aaa);
+    background:#ffffff;
     background-clip: text;
     color: transparent;
 }
@@ -181,7 +172,21 @@ body {
     letter-spacing: 2px;
     font-size: larger;
     line-height: 2.5rem;
-    margin-left: -30rem;
+    margin-left: -25rem;
+}
+.skill-bar {
+    width: 200px;
+    height: 10px;
+    background-color: #3a3a3a;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skill-bar-fill {
+    height: 100%;
+    background-color: #27bfbf;
+    border-radius: 5px;
+    transition: width 0.5s ease-in-out;
 }
 .social-icons {
     display: flex;
