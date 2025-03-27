@@ -60,6 +60,7 @@ body {
 }
 
 .nav-menu a::after {
+    content: '';
     position: absolute;
     width: 0;
     height: 2px;
@@ -250,11 +251,7 @@ h1 {
     }
     h1 {
         text-align: left;
-        font-size: 2.8rem;
-    }
-    
-    .slogan h3{
-        margin-top: -10px;
+        font-size: 2.5rem;
     }
     .slogan h3 {
         font-size: 1.2rem;
