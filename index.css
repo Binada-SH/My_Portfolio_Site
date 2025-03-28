@@ -248,6 +248,12 @@ h1 {
         padding: 0.5rem;
     }
 
+    .navbar {
+        margin-top: 1rem;
+        margin-right: 30px;
+        justify-content: flex-end;
+    }
+
     .content {
         margin: auto;
     }
@@ -257,6 +263,44 @@ h1 {
     }
     .slogan h3 {
         font-size: 1.2rem;
+    }
+
+    .content {
+        height: 70vh;
+    }
+
+    .cta-button {
+        width: 80%;
+        padding: 0.8rem 1.5rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        overflow-x: hidden;
+        background: #000000;
+    }
+
+    .container {
+        padding: 0.5rem;
+    }
+
+    .navbar {
+        margin-top: 1rem;
+        margin-right: 30px;
+        justify-content: flex-end;
+    }
+
+    .content {
+        width: auto;
+        margin: auto;
+    }
+    h1 {
+        text-align: left;
+        font-size: 2.3rem;
+    }
+    .slogan h3 {
+        font-size: 1rem;
     }
 
     .content {
