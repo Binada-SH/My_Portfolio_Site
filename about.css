@@ -275,45 +275,46 @@ body {
         justify-content: center;
     }
 
-    .h1 {
-        margin-left: 18rem;
-        margin-top: -3rem;
-        font-size: 3rem;
+    .about-text {
+        margin-left: 1rem;
+    }
+    
+    .about-text h1 {
+        font-size: 2rem;
+        margin-left: -0.5rem;
+        margin-top: 1rem;
         line-height: 1.1;
     }
 
-    .slogan h3 {
-        font-size: 1rem;
-        margin-bottom: 2rem;
-        margin-left: 18rem;
-    }
-
-    .cta-button {
-        scale: 0.6;
-        font-size: 1.5rem;
-        padding: 1.5rem 3rem;
-        margin-top: -3rem;
-        margin-left: 13.5rem;
-    }
-
-    .social-icons {
-        scale: 0.6;
-        gap: 2.5rem;
-        margin-top: 2rem;
-        margin-top: -2.5rem;
+    .about-description {
+        width: 60%;
         margin-left: 2rem;
     }
 
-    .social-icon img {
-        width: 50px;
-        height: 50px;
+    .about-description p {
+        font-size: 16px;
+    }
+    
+    .skills-section h3{
+        font-size: 2rem;
+        display: block;
+        margin-top: -33rem;
+        margin-left: 46rem;
     }
 
-    .copyrights h6 {
-        font-size: 0.75rem;
-        margin-left: 17.5rem;
+    .skills-grid-1 {
+        display: block;
+        padding-left: 50rem;
+        margin-top: 6rem;
     }
-}
+
+    .skills-grid-2 {
+        display: none;
+        margin-top: 6rem;
+    }
+    .about-image img {
+        display: none;
+    }
 
 @media screen and (max-width: 768px) {
     h1 {
@@ -378,4 +379,4 @@ body {
     .content {
         height: 70vh;
     }
-}
+}}
