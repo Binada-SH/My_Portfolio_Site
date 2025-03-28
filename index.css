@@ -172,8 +172,8 @@ h1 {
         padding: 4rem;
     }
     .navbar {
-        margin-top: -2.6rem;
-        margin-left: 50rem;
+        margin-top: -0.6rem;
+        margin-left: 46rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -218,31 +218,36 @@ h1 {
 
  .content {
         max-width: 1800px;
-        height: 80vh;
+        height: 100vh;
         justify-content: center;
     }
 
     h1 {
-        margin-left: 18rem;
+        margin-left: 14rem;
         margin-top: -13rem;
         font-size: 3rem;
         line-height: 1.1;
     }
 
     .slogan h3 {
-        font-size: 1rem;
-        margin-bottom: 3rem;
-        margin-left: 18rem;
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+        margin-left: 14rem;
     }
 
     .cta-button {
+        scale: 0.6;
         font-size: 1.5rem;
         padding: 1.5rem 3rem;
+        margin-left: 9.5rem;
+        margin-top: -1rem;
     }
 
     .social-icons {
         gap: 2.5rem;
-        margin-top: 2rem;
+        scale: 0.5;
+        margin-top: -2.5rem;
+        margin-left: -8.7rem;
     }
 
     .social-icon img {
@@ -251,7 +256,8 @@ h1 {
     }
 
     .copyrights h6 {
-        font-size: 1rem;
+        font-size: 0.7rem;
+        margin-left: 13.5rem;
     }
 }
 
