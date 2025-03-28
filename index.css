@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Jura', sans-serif;
-    background: linear-gradient(135deg, #000000, #242424);
+    background: #000000;
     color: white;
     height: 100vh;
     overflow: hidden;
@@ -169,6 +169,7 @@ h1 {
 .copyrights h6 {
     color: #242424;
 }
+
 @media screen and (max-width: 768px) {
     .container {
         height: 100vh;
@@ -240,7 +241,7 @@ h1 {
 @media screen and (max-width: 430px) {
     body {
         overflow-x: hidden;
-        background: linear-gradient(15deg, #000000, #242424);
+        background: #000000;
     }
 
     .container {
