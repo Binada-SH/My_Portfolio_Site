@@ -91,7 +91,7 @@ body {
 }
 
 .page-header {
-    margin-top: 6rem;
+    margin-top: 3rem;
     display: flex;
     align-items: center;
     gap: 4rem;
@@ -142,7 +142,7 @@ body {
 .services-container p {
     font-family: "Kanit";
     letter-spacing: 1.3px;
-    text-align: justify;
+    text-align: center;
     color: #a3a3a3;
     line-height: 1.8;
 }
@@ -176,7 +176,8 @@ body {
 }
 
 .service-title-3 h2::before {
-    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>');
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"><path d="M3 4c0-1.1.9-2 2-2h14c1.1 0 2 .9 2 2v16c0 1.1-.9 2-2 2H5c-1.1 0-2-.9-2-2V4zm2 0v4h14V4H5zm0 6v10h14V10H5zm2 2h10v2H7v-2zm0 4h6v2H7v-2z"/></svg>');
+
 }
 h1 {
     font-family: "Jura";
@@ -188,34 +189,32 @@ h1 {
     background-clip: text;
 }
 
-.slogan h3 {
-    font-size: 1.5rem;
-    font-weight: 400;
-    margin-bottom: 2rem;
-    font-family: 'Kanit', sans-serif;
-    letter-spacing: 1px;
+.service-button-1 button,
+.service-button-2 button, 
+.service-button-3 button {
+    border: none;
+    margin-top: 1.4rem;
+    height: 36px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    transition: transform 0.3s ease-in-out;
 }
 
-.cta-button {
-    background: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    color: white;
-    padding: 1rem 2rem;
-    font-family: 'Jura', sans-serif;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    backdrop-filter: blur(10px);
+.service-button-1 button a,
+.service-button-2 button a,
+.service-button-3 button a{
+    font-size: medium;
+    font-family: "kanit";
     letter-spacing: 1px;
-}
-
-.cta-button a {
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
 }
-.cta-button:hover {
-    background: rgba(255, 255, 255, 0.2);
-    transform: translateY(-2px);
+
+.service-button-1:hover,
+.service-button-2:hover,
+.service-button-3:hover {
+    transform: scale(1.1)
 }
 
 .social-icons {
