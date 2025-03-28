@@ -240,6 +240,7 @@ h1 {
 @media screen and (max-width: 430px) {
     body {
         overflow-x: hidden;
+        background: linear-gradient(15deg, #000000, #242424);
     }
 
     .container {
