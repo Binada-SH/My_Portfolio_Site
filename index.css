@@ -19,8 +19,7 @@ body {
 }
 
 .navbar {
-    top: 6rem;
-    position: sticky;
+    position: fixed;
     width: 100%;
     margin-top: 4rem;
     margin-left: 100rem;
@@ -28,6 +27,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem 0;
+    z-index: 1;
 }
 
 .logo {
@@ -97,16 +97,16 @@ body {
     height: 100vh;
     max-width: 1200px;
     margin: 0 auto;
-    margin-top: 0.36 rem;
+    margin-top: 0.3rem;
     position: relative;
-    z-index: 1;
+    z-index: 0;
 }
 
 .header {
     margin-bottom: 3rem;
 }
 
-h1 {
+.header h1 {
     font-family: "Jura";
     font-size: 6rem;
     font-style: bold;
