@@ -146,13 +146,13 @@ body {
     transform: translateY(-2px);
 }
 
-.social-icons {
+.social_icons {
     display: flex;
     gap: 1.5rem;
     margin-top: 0.1rem;
 }
 
-.social-icon {
+.social_icon {
     color: white;
     text-decoration: none;
     font-size: 0.9rem;
@@ -160,7 +160,7 @@ body {
     transition: opacity 0.3s ease;
 }
 
-.social-icon:hover {
+.social_icon:hover {
     opacity: 1;
 }
 
@@ -254,7 +254,7 @@ body {
         margin-left: 13.5rem;
     }
 
-    .social-icons {
+    .social_icons {
         scale: 0.6;
         gap: 2.5rem;
         margin-top: 2rem;
@@ -262,7 +262,7 @@ body {
         margin-left: 2rem;
     }
 
-    .social-icon img {
+    .socialicon img {
         width: 50px;
         height: 50px;
     }
@@ -336,7 +336,7 @@ body {
         align-items: center;
     }
 
-    .social-icons {
+    .social_icons {
         justify-content: center;
     }
 }
@@ -425,11 +425,11 @@ body {
         padding: 0.8rem 1.5rem;
     }
 
-    .social-icons {
+    .social_icons {
         margin-left: -11.5rem;
         margin-top: -2.8rem;
     }
-    .social-icons img{
+    .social_icons img{
         scale: 0.9;
     }
 
@@ -525,11 +525,11 @@ body {
         padding: 0.8rem 1.5rem;
     }
 
-    .social-icons {
+    .social_icons {
         margin-left: -7rem;
         margin-top: -3.4rem;
     }
-    .social-icons img{
+    .social_icons img{
         scale: 0.8;
     }
 
