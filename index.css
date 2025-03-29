@@ -342,7 +342,6 @@ h1 {
 @media screen and (max-width: 430px) {
     body {
         overflow-x: hidden;
-        overflow-y: hidden;
         background: #000000;
     }
 
@@ -353,30 +352,89 @@ h1 {
     .navbar {
         margin-top: 1rem;
         margin-right: 30px;
-        justify-content: flex-end;
+    }
+
+    .nav-menu {
+        position: fixed;
+        right: -100%; /* Change from left to right */
+        top: 0;
+        height: 100vh;
+        width: 70%; /* Adjust width as needed */
+        flex-direction: column;
+        background: rgba(0, 0, 0, 0.9);
+        text-align: center;
+        transition: 0.3s;
+        box-shadow: -10px 0 27px rgba(0, 0, 0, 0.05);
+        z-index: 10;
+        padding-top: 4rem;
+    }
+
+    .nav-menu.active {
+        right: 0; /* Change from left to right */
+    }
+
+    .nav-menu li {
+        margin: 2.5rem 0;
+    }
+
+    .menu-toggle {
+        display: block;
+        z-index: 11;
+        position: relative;
+    }
+
+    .menu-toggle.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-toggle.active .bar:nth-child(1) {
+        transform: translateY(7px) rotate(45deg);
+    }
+
+    .menu-toggle.active .bar:nth-child(3) {
+        transform: translateY(-7px) rotate(-45deg);
     }
 
     .content {
-        min-height: 100vh;
+        width: auto;
         margin: auto;
+        max-height: 100vh;
     }
-    h1 {
+
+    .header h1 {
         text-align: left;
-        margin-left: 3rem;
-        margin-top: -6rem;
-        font-size: 2.5rem;
+        font-size: 2.6rem;
+        margin-top: -3rem;
+        margin-left: 0.7rem;
     }
+
     .slogan h3 {
-        font-size: 1.2rem;
+        font-size: 1rem;
+        margin-top: -1rem;
+        margin-left: -1rem;
+        margin-bottom: 1.3rem;
     }
-
-    .content {
-        height: 70vh;
-    }
-
+    
     .cta-button {
-        width: 80%;
+        margin-left: -9rem;
+        margin-top: -9rem;
+        scale: 0.6;
+        width: 86%;
         padding: 0.8rem 1.5rem;
+    }
+
+    .social-icons {
+        margin-left: -11.5rem;
+        margin-top: -2.8rem;
+    }
+    .social-icons img{
+        scale: 0.9;
+    }
+
+    .copyrights {
+        scale: 0.9;
+        margin-top: 0.6rem;
+        margin-left: -19rem;
     }
 }
 
