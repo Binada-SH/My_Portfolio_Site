@@ -172,226 +172,159 @@ body {
     color: #353535;
 }
 
-.container_2 {
-    width: 100%;
-    height: 83vh;
+.skills_section {
+    padding: 13rem;
 }
-.skill_heading {
-    margin-top: 0rem;
-}
+
 .skill_heading h1 {
-    font-family: "Jura";
-    font-size: 2.6rem;
     text-align: center;
-    text-transform: uppercase;
+    margin-bottom: 30px;
 }
 
 .skill_container {
-    width: 80%;
-    align-items: center;
-}
-
-.html_container {
-    width: 10px;
-}
-
-.html_img img {
-
-    scale: 0.1;
-    margin-left: -13.5rem;
-    margin-top: -13.5rem;
-}
-
-.css_img img {
-
-    scale: 0.1;
-    margin-left: -13.5rem;
-    margin-top: -13.5rem;
-}
-
-.js_img img {
-
-    scale: 0.1;
-    margin-left: -13.5rem;
-    margin-top: -13.5rem;
-}
-
-.react_img img {
-
-    scale: 0.1;
-    margin-left: -13.5rem;
-    margin-top: -13.5rem;
-}
-
-.python_img img {
-
-    scale: 0.1;
-    margin-left: -13.5rem;
-    margin-top: -13.5rem;
-}
-
-.tailwind_img img {
-
-    scale: 0.1;
-    margin-left: -10rem;
-    margin-top: -10rem;
-}
-
-.php_img img {
-
-    scale: 0.1;
-    margin-left: -13.5rem;
-    margin-top: -13.5rem;
-}
-
-.flutter_img img {
-
-    scale: 0.03;
-    margin-left: -61.5rem;
-    margin-top: -61.5rem;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* General skill container styles */
-.skill_container > div > div {
     display: grid;
-    flex-direction: row;
-    background-color: #e0e0e0;
-    border-radius: 25px;
-    padding: 25px;
-    width: 100%;
-    max-width: 600px;
-    height: 200px;
-    margin: 15px auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px; /* Increased gap for padding */
 }
 
-
-/* Title styles */
-.skill_container h3 {
-    display: flex;
-    font-size: 1.8rem;
-    font-weight: 500;
-    margin-top: 2rem;
-    margin-left: 7.5rem;
-    color: #111111;
-    font-family: 'Jura', sans-serif;
+.skill_container > div {
+    background-color: #D9D9D9;
+    padding: 15px; /* Reduced padding inside cards */
+    border-radius: 23px;
+    box-shadow: 0 4px 8px #6c6c6c;
+    width: 90%; /* Reduced width */
+    margin: 0 auto; /* Center the cards */
 }
 
-/* Image placeholder */
-.skill_container div[class$="_img"] {
-    width: 80px;
-    height: 80px;
-    border-radius: 15px;
-    margin: 15px 0;
-    margin-top: -3rem;
-    margin-left: 1rem;
+.skill_container > div img {
+    max-width: 40px; /* Reduced image size */
+    margin-bottom: 8px;
 }
 
-/* Different colors for each skill */
-.html_img { background-color: #ffffff; }
-.css_img { background-color: #ffffff; }
-.js_img { background-color: #ffffff; }
-.react_img { background-color: #ffffff; }
-.python_img { background-color: #ffffff; }
-.tailwind_img { background-color: #ffffff; }
-.php_img { background-color: #ffffff; }
-.flutter_img { background-color: #ffffff; }
-/* Add more colors for other skills */
-
-/* Progress label */
-.skill_container h5 {
-    font-size: 1.2rem;
-    margin: 10px 0;
-    margin-top: -3rem;
-    margin-left: 7.6rem;
-    font-weight: 400;
-    color: #333;
+.skill_container > div h3 {
+    color: #353535;
     font-family: 'Jura';
+    letter-spacing: 0px;
+    margin-top: 3rem;
+    margin-left: 8rem;
+    margin-bottom: 3px;
+    font-size: 2.5rem; /* Slightly reduced font size */
 }
 
-/* Progress bar background */
-.skill_container div[class$="_pgr_bar"] {
-    width: 60%;
-    height: 10px;
-    background-color: #727272;
-    border-radius: 5px;
-    margin: 10px 0 25px 0;
-    margin-top: -1rem;
-    margin-left: 7.6rem;
-    position: relative;
+.skill_container > div h5 {
+    color: #353535;
+    margin-bottom: 3px;
+    font-size: 0.8em; /* Reduced font size */
 }
 
-/* Progress bar fill */
-.html_pgr_bar::before { width: 75%; background-color: #e44c37; }
-.css_pgr_bar::before { width: 70%; background-color: #5b9bfa; }
-.js_pgr_bar::before { width: 65%; background-color: #e3c94f; }
-.js_pgr_bar::before { width: 65%; background-color: #e3c94f; }
-/* Add more skill levels */
+.skill_container > div .html_pgr_bar,
+.skill_container > div .css_pgr_bar,
+.skill_container > div .js_pgr_bar,
+.skill_container > div .react_pgr_bar,
+.skill_container > div .python_pgr_bar,
+.skill_container > div .tailwind_pgr_bar,
+.skill_container > div .php_pgr_bar,
+.skill_container > div .flutter_pgr_bar {
+    background-color: #ddd;
+    height: 8px; /* Reduced progress bar height */
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
 
-.skill_container div[class$="_pgr_bar"]::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
+/* Example progress bar fill (adjust width as needed) */
+.skill_container > div .html_pgr_bar::before {
+    content: "";
+    display: block;
+    background-color: #007bff;
     height: 100%;
-    border-radius: 5px;
+    width: 70%;
+    border-radius: 4px;
 }
 
-/* Certification button */
-.skill_container button {
-    background: transparent;
+.skill_container > div .css_pgr_bar::before {
+    content: "";
+    display: block;
+    background-color: #ffc107;
+    height: 100%;
+    width: 85%;
+    border-radius: 4px;
+}
+
+skill_container > div .js_pgr_bar::before {
+    content: "";
+    display: block;
+    background-color: #28a745;
+    height: 100%;
+    width: 60%;
+    border-radius: 4px;
+}
+
+skill_container > div .react_pgr_bar::before {
+    content: "";
+    display: block;
+    background-color: #17a2b8;
+    height: 100%;
+    width: 90%;
+    border-radius: 4px;
+}
+
+skill_container > div .python_pgr_bar::before {
+    content: "";
+    display: block;
+    background-color: #6f42c1;
+    height: 100%;
+    width: 75%;
+    border-radius: 4px;
+}
+
+skill_container > div .tailwind_pgr_bar::before {
+    content: "";
+    display: block;
+    background-color: #e83e8c;
+    height: 100%;
+    width: 50%;
+    border-radius: 4px;
+}
+
+skill_container > div .php_pgr_bar::before {
+    content: "";
+    display: block;
+    background-color: #fd7e14;
+    height: 100%;
+    width: 65%;
+    border-radius: 4px;
+}
+
+skill_container > div .flutter_pgr_bar::before {
+    content: "";
+    display: block;
+    background-color: #007bff;
+    height: 100%;
+    width: 80%;
+    border-radius: 4px;
+}
+
+skill_container > div button {
+    background-color: transparent;
     border: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    padding: 0;
     cursor: pointer;
+    text-align: right;
+    width: 100%;
+    padding-top: 8px; /* Reduced padding */
 }
 
-.skill_container a {
+.skill_container > div button a {
+    color: #007bff;
     text-decoration: none;
+    font-size: 0.85em; /* Reduced font size */
 }
 
-.skill_container a::before {
-    content: 'view certifications';
-    font-family: 'Jura', sans-serif;
-    font-size: 1.3rem;
-    color: #333;
+/* Responsive Grid for smaller screens */
+@media (max-width: 768px) {
+    .skill_container {
+        grid-template-columns: 1fr;
+    }
 }
-
-
 @media screen and (min-resolution: 2x) {
     body {
         font-size: 24px; 
