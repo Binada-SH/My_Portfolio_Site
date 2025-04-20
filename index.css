@@ -179,17 +179,25 @@ body {
 .skill_heading h1 {
     text-align: center;
     margin-bottom: 30px;
+    font-size: 6rem;
+    font-family: 'Jura';
+    text-transform: uppercase;
+}
+
+.skill_heading {
+    /* margin-bottom: 3rem; */
 }
 
 .skill_container {
+    margin-top: 10rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px; /* Increased gap for padding */
+    gap: 40px; /* Increased gap for padding */
 }
 
 .skill_container > div {
-    background-color: #D9D9D9;
-    padding: 15px; /* Reduced padding inside cards */
+    background-color: #1d1d1d;
+    padding: 16px; /* Reduced padding inside cards */
     border-radius: 23px;
     box-shadow: 0 4px 8px #6c6c6c;
     width: 90%; /* Reduced width */
@@ -197,23 +205,27 @@ body {
 }
 
 .skill_container > div img {
-    max-width: 40px; /* Reduced image size */
+    max-width: 60px;
+    margin-top: -10rem;
     margin-bottom: 8px;
+    margin-left: 1.8rem;
 }
 
 .skill_container > div h3 {
-    color: #353535;
+    color: #ffffff;
     font-family: 'Jura';
     letter-spacing: 0px;
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-left: 8rem;
     margin-bottom: 3px;
     font-size: 2.5rem; /* Slightly reduced font size */
 }
 
 .skill_container > div h5 {
-    color: #353535;
-    margin-bottom: 3px;
+    color: #bebebe;
+    margin-top: 1px;
+    margin-left: 8rem;
+    margin-bottom: 13px;
     font-size: 0.8em; /* Reduced font size */
 }
 
@@ -225,8 +237,10 @@ body {
 .skill_container > div .tailwind_pgr_bar,
 .skill_container > div .php_pgr_bar,
 .skill_container > div .flutter_pgr_bar {
-    background-color: #ddd;
-    height: 8px; /* Reduced progress bar height */
+    background-color: #d3d3d3;
+    height: 8px;
+    margin-left: 8rem;
+    width: 70%; 
     border-radius: 4px;
     margin-bottom: 8px;
 }
@@ -235,7 +249,7 @@ body {
 .skill_container > div .html_pgr_bar::before {
     content: "";
     display: block;
-    background-color: #007bff;
+    background-color: #f3421b;
     height: 100%;
     width: 70%;
     border-radius: 4px;
@@ -244,22 +258,22 @@ body {
 .skill_container > div .css_pgr_bar::before {
     content: "";
     display: block;
-    background-color: #ffc107;
+    background-color: #2aa0ea;
     height: 100%;
     width: 85%;
     border-radius: 4px;
 }
 
-skill_container > div .js_pgr_bar::before {
+.skill_container > div .js_pgr_bar::before {
     content: "";
     display: block;
-    background-color: #28a745;
+    background-color: #daca1d;
     height: 100%;
     width: 60%;
     border-radius: 4px;
 }
 
-skill_container > div .react_pgr_bar::before {
+.skill_container > div .react_pgr_bar::before {
     content: "";
     display: block;
     background-color: #17a2b8;
@@ -268,7 +282,7 @@ skill_container > div .react_pgr_bar::before {
     border-radius: 4px;
 }
 
-skill_container > div .python_pgr_bar::before {
+.skill_container > div .python_pgr_bar::before {
     content: "";
     display: block;
     background-color: #6f42c1;
@@ -277,7 +291,7 @@ skill_container > div .python_pgr_bar::before {
     border-radius: 4px;
 }
 
-skill_container > div .tailwind_pgr_bar::before {
+.skill_container > div .tailwind_pgr_bar::before {
     content: "";
     display: block;
     background-color: #e83e8c;
@@ -286,7 +300,7 @@ skill_container > div .tailwind_pgr_bar::before {
     border-radius: 4px;
 }
 
-skill_container > div .php_pgr_bar::before {
+.skill_container > div .php_pgr_bar::before {
     content: "";
     display: block;
     background-color: #fd7e14;
@@ -295,7 +309,7 @@ skill_container > div .php_pgr_bar::before {
     border-radius: 4px;
 }
 
-skill_container > div .flutter_pgr_bar::before {
+.skill_container > div .flutter_pgr_bar::before {
     content: "";
     display: block;
     background-color: #007bff;
@@ -304,7 +318,7 @@ skill_container > div .flutter_pgr_bar::before {
     border-radius: 4px;
 }
 
-skill_container > div button {
+.skill_container > div button {
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -319,6 +333,11 @@ skill_container > div button {
     font-size: 0.85em; /* Reduced font size */
 }
 
+.skill_container h4 {
+    padding-left: 36px;
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+}
 /* Responsive Grid for smaller screens */
 @media screen and (min-resolution: 2x) {
     body {
