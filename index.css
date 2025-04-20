@@ -320,11 +320,6 @@ skill_container > div button {
 }
 
 /* Responsive Grid for smaller screens */
-@media (max-width: 768px) {
-    .skill_container {
-        grid-template-columns: 1fr;
-    }
-}
 @media screen and (min-resolution: 2x) {
     body {
     }
@@ -379,7 +374,7 @@ skill_container > div button {
         width: 100%;
     }
 
- .content {
+    .content {
         max-width: 1800px;
         height: 80vh;
         justify-content: center;
@@ -387,7 +382,7 @@ skill_container > div button {
 
     .header h1 {
         margin-left: 13rem;
-        margin-top: 10rem;
+        margin-top: 8rem;
         font-size: 3.8rem;
         line-height: 1.1;
     }
@@ -395,7 +390,7 @@ skill_container > div button {
     .slogan h3 {
         font-size: 1rem;
         margin-bottom: 2rem;
-        margin-left: 18rem;
+        margin-left: 13rem;
     }
 
     .cta-button {
@@ -403,7 +398,7 @@ skill_container > div button {
         font-size: 1.5rem;
         padding: 1.5rem 3rem;
         margin-top: -3rem;
-        margin-left: 13.5rem;
+        margin-left: 8.7rem;
     }
 
     .social_icons {
@@ -411,7 +406,7 @@ skill_container > div button {
         gap: 2.5rem;
         margin-top: 2rem;
         margin-top: -2.5rem;
-        margin-left: 2rem;
+        margin-left: -1.5rem;
     }
 
     .socialicon img {
@@ -421,7 +416,7 @@ skill_container > div button {
 
     .copyrights h6 {
         font-size: 0.75rem;
-        margin-left: 17.5rem;
+        margin-left: 12.8rem;
     }
 }
 
