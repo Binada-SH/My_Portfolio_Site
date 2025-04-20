@@ -327,7 +327,6 @@ skill_container > div button {
 }
 @media screen and (min-resolution: 2x) {
     body {
-        font-size: 24px; 
     }
 
     .container {
@@ -336,8 +335,8 @@ skill_container > div button {
         padding: 4rem;
     }
     .navbar {
-        margin-top: -2.6rem;
-        margin-left: 50rem;
+        margin-top: -0.8rem;
+        margin-left: 40rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -386,10 +385,10 @@ skill_container > div button {
         justify-content: center;
     }
 
-    h1 {
-        margin-left: 18rem;
-        margin-top: -1rem;
-        font-size: 3rem;
+    .header h1 {
+        margin-left: 13rem;
+        margin-top: 10rem;
+        font-size: 3.8rem;
         line-height: 1.1;
     }
 
