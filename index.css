@@ -720,6 +720,7 @@ body {
         display: block;
         z-index: 11;
         position: relative;
+        margin-right: 2.6rem;
     }
 
     .menu-toggle.active .bar:nth-child(2) {
@@ -738,6 +739,7 @@ body {
         width: auto;
         margin: auto;
         max-height: 100vh;
+        margin-top: 7rem;
     }
 
     .header h1 {
@@ -763,8 +765,8 @@ body {
     }
 
     .social_icons {
-        margin-left: -11.5rem;
-        margin-top: -2.8rem;
+        margin-left: -13.7rem;
+        margin-top: -3rem;
     }
     .social_icons img{
         scale: 0.9;
@@ -773,7 +775,14 @@ body {
     .copyrights {
         scale: 0.9;
         margin-top: 0.6rem;
-        margin-left: -19rem;
+        margin-left: -15rem;
+    }
+    .container_2 {
+        display: none;
+    }
+    
+    .container_3 {
+        display: none;
     }
 }
 
