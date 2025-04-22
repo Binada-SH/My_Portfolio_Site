@@ -349,9 +349,6 @@ body {
 }
 /* Responsive Grid for smaller screens */
 @media screen and (min-resolution: 2x) {
-    body {
-    }
-
     .container {
         max-width: 2200px;
         margin: 0 auto;
@@ -446,6 +443,171 @@ body {
         font-size: 0.75rem;
         margin-left: 12.8rem;
     }
+
+    .skills_section {
+        padding: 6rem;
+    }
+    
+    .skill_heading h1 {
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 3rem;
+        font-family: 'Jura';
+        text-transform: uppercase;
+    }
+    
+    .skill_container {
+        margin-top: 5rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 60px; /* Increased gap for padding */
+    }
+    
+    .skill_container > div {
+        background-color: #1d1d1d;
+        padding: 16px; /* Reduced padding inside cards */
+        border-radius: 23px;
+        box-shadow: 0 4px 8px #6c6c6c;
+        width: 106%; /* Reduced width */
+        height: 120px;
+        margin: 0 auto; /* Center the cards */
+    }
+    
+    .skill_container > div img {
+        max-width: 40px;
+        margin-top: -1.02rem;
+        margin-bottom: 8px;
+        margin-left: 0.3rem;
+    }
+    
+    .skill_container > div h3 {
+        color: #ffffff;
+        font-family: 'Jura';
+        letter-spacing: 0px;
+        margin-top: 0rem;
+        margin-left: 5rem;
+        margin-bottom: 3px;
+        font-size: 1.4rem; 
+    }
+    
+    .skill_container > div h5 {
+        color: #bebebe;
+        margin-top: -1.3rem;
+        margin-left: 5rem;
+        margin-bottom: 2rem;
+        font-size: 0.8em; 
+    }
+    
+    .skill_container > div .html_pgr_bar,
+    .skill_container > div .css_pgr_bar,
+    .skill_container > div .js_pgr_bar,
+    .skill_container > div .react_pgr_bar,
+    .skill_container > div .python_pgr_bar,
+    .skill_container > div .tailwind_pgr_bar,
+    .skill_container > div .php_pgr_bar,
+    .skill_container > div .flutter_pgr_bar {
+        background-color: #d3d3d3;
+        height: 8px;
+        margin-top: -1rem;
+        margin-left: 4.8rem;
+        width: 68%; 
+        border-radius: 4px;
+        margin-bottom: 8px;
+    }
+    
+    .skill_container > div .html_pgr_bar::before {
+        content: "";
+        display: block;
+        background-color: #f3421b;
+        height: 100%;
+        width: 70%;
+        border-radius: 4px;
+    }
+    
+    .skill_container > div .css_pgr_bar::before {
+        content: "";
+        display: block;
+        background-color: #2aa0ea;
+        height: 100%;
+        width: 85%;
+        border-radius: 4px;
+    }
+    
+    .skill_container > div .js_pgr_bar::before {
+        content: "";
+        display: block;
+        background-color: #daca1d;
+        height: 100%;
+        width: 60%;
+        border-radius: 4px;
+    }
+    
+    .skill_container > div .react_pgr_bar::before {
+        content: "";
+        display: block;
+        background-color: #17a2b8;
+        height: 100%;
+        width: 90%;
+        border-radius: 4px;
+    }
+    
+    .skill_container > div .python_pgr_bar::before {
+        content: "";
+        display: block;
+        background-color: #6f42c1;
+        height: 100%;
+        width: 75%;
+        border-radius: 4px;
+    }
+    
+    .skill_container > div .tailwind_pgr_bar::before {
+        content: "";
+        display: block;
+        background-color: #e83e8c;
+        height: 100%;
+        width: 50%;
+        border-radius: 4px;
+    }
+    
+    .skill_container > div .php_pgr_bar::before {
+        content: "";
+        display: block;
+        background-color: #fd7e14;
+        height: 100%;
+        width: 65%;
+        border-radius: 4px;
+    }
+    
+    .skill_container > div .flutter_pgr_bar::before {
+        content: "";
+        display: block;
+        background-color: #007bff;
+        height: 100%;
+        width: 80%;
+        border-radius: 4px;
+    }
+    
+    .skill_container > div button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        text-align: right;
+        width: 100%;
+        padding-top: 8px; /* Reduced padding */
+    }
+    
+    .skill_container > div button a {
+        color: #007bff;
+        text-decoration: none;
+        font-size: 0.85em; /* Reduced font size */
+    }
+    
+    .skill_container h4 {
+        padding-left: 8px;
+        margin-top: -1.5rem;
+        margin-bottom: 2rem;
+    }
+    
 }
 
 @media screen and (max-width: 768px) {
