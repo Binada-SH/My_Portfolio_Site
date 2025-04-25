@@ -798,11 +798,12 @@ body {
 
     .skill_container > div {
         background-color: #1d1d1d;
-        padding: 16px; /* Reduced padding inside cards */
+        padding: 16px; 
         border-radius: 23px;
-        width: 106%; /* Reduced width */
+        width: 130%; 
         height: 120px;
-        margin: 20px auto; /* Center the cards */
+        margin: 20px -2.3rem;
+        align-items: center;
     }
     
     .container_3 {
@@ -907,5 +908,15 @@ body {
         scale: 0.7;
         margin-top: -0.2rem;
         margin-left: -14rem;
+    }
+
+    .skill_container > div {
+        background-color: #1d1d1d;
+        padding: 16px; 
+        border-radius: 23px;
+        width: 150%; 
+        height: 120px;
+        margin: 20px -2.7rem;
+        align-items: center;
     }
 }
