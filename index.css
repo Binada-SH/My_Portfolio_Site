@@ -208,7 +208,6 @@ body {
     background-color: #1d1d1d;
     padding: 16px; /* Reduced padding inside cards */
     border-radius: 23px;
-    box-shadow: 0 4px 8px #6c6c6c;
     width: 90%; /* Reduced width */
     margin: 0 auto; /* Center the cards */
 }
@@ -467,7 +466,6 @@ body {
         background-color: #1d1d1d;
         padding: 16px; /* Reduced padding inside cards */
         border-radius: 23px;
-        box-shadow: 0 4px 8px #6c6c6c;
         width: 106%; /* Reduced width */
         height: 120px;
         margin: 0 auto; /* Center the cards */
@@ -796,6 +794,15 @@ body {
     }
     .container_2 {
         display: block;
+    }
+
+    .skill_container > div {
+        background-color: #1d1d1d;
+        padding: 16px; /* Reduced padding inside cards */
+        border-radius: 23px;
+        width: 106%; /* Reduced width */
+        height: 120px;
+        margin: 20px auto; /* Center the cards */
     }
     
     .container_3 {
