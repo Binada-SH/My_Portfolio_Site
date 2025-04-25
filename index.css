@@ -777,8 +777,25 @@ body {
         margin-top: 0.6rem;
         margin-left: -15rem;
     }
+
+    .skill_heading {
+        margin-top: -5rem;
+        align-items: center;
+    }
+
+    .skill_heading h1 {
+        font-size: 2rem;
+    }
+
+    .skill_container {
+        margin-top: 5rem;
+        display: block;
+    }
+    .html {
+        margin-bottom: 2rem;
+    }
     .container_2 {
-        display: none;
+        display: block;
     }
     
     .container_3 {
