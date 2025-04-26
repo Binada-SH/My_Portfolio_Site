@@ -807,7 +807,7 @@ body {
     }
     
     .container_3 {
-        display: none;
+        display: block;
     }
 }
 
