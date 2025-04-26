@@ -51,8 +51,8 @@ document.addEventListener('DOMContentLoaded', function() {
       copyrights.style.opacity = 1;
     }
 
-    if (scrollPosition > 150) {
-      skill.style.opacity = 1 - ((scrollPosition - 200) / 80000);
+    if (scrollPosition > 200) {
+      skill.style.opacity = 1 - ((scrollPosition - 1500) / 400);
     } else {
       skill.style.opacity = 1;
     }
