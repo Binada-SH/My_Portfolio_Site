@@ -347,7 +347,7 @@ body {
     margin-bottom: 2rem;
 }
 
-.priject_title h1{
+.project_title h1{
     text-align: center;
     margin-bottom: 30px;
     font-size: 4rem;
@@ -706,6 +706,110 @@ body {
         margin-top: -1.5rem;
         margin-bottom: 2rem;
     }
+
+    .container_3 {
+        margin-top: 3rem;
+    }
+
+    .project1 {
+        margin-left: 6.3rem;
+        cursor: pointer;
+    }
+
+    .project_title h1 {
+        font-size: 3rem;
+    }
+
+    .card {
+        margin-top: 6rem;
+        width: 330px;
+        height: 930px;
+        border: 1px solid #1e1e1e;
+        border-radius: 13px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: transform 0.4s ease-in-out;
+    }
+
+    .card:hover {
+        transform: scale(1.05); 
+    }
+
+    .card img {
+        width: 100%;
+        display: block;
+        height: auto;
+      }
+      
+      .card-body {
+        padding: 15px;
+        margin-left: 2rem;
+      }
+     
+      .card_title {
+        margin-top: 1rem;
+      }
+      .card_title h1 {
+        font-size: 1.3rem;
+      }
+      
+      .card_text {
+        width: 250px;
+        margin-top: 0.5rem;
+      }
+      .card_text p {
+        font-size: 0.9rem;
+        color: #555;
+        margin-top: 0.6rem;
+        margin-bottom: 15px;
+      }
+      
+      .card_overview {
+        width: 240px;
+        margin-top: 2.5rem;
+      }
+      .card_overview p {
+        text-align: justify;
+        font-size: 0.9rem;
+        line-height: 1.6rem;
+        color: #b3b3b3;
+      }
+    
+      .tech_stack {
+        color: #b3b3b3;
+        margin-top: 1.7rem;
+      }
+    
+      .tech_stack_title h3 {
+        font-size: 1.5rem;
+      }
+    
+      .tech_stack ul {
+        font-size: 1.2rem;
+        line-height: 2rem;
+        margin-top: 1rem;
+        margin-left: 1.7rem;
+      }
+    
+      .project_redirect_button {
+        margin-top: 2rem;
+        font-weight: 500;
+    
+      }
+      .project_redirect_button a{
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        border-radius: 38px;
+      }
+    
+      
+      .card-button:hover {
+        background-color: #0056b3;
+      }
+
     
 }
 
