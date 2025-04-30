@@ -356,17 +356,18 @@ body {
 }
 
 .project1 {
-    margin-left: 8rem;
+    margin-top: 8rem;
+    margin-left: 24rem;
     cursor: pointer;
 }
 
 .card {
-    width: 500px;
-    height: 1000px;
+    width: 1800px;
+    height: 1900px;
     border: 1px solid #1e1e1e;
     border-radius: 13px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
+    overflow: hidden; 
     transition: transform 0.4s ease-in-out;
   }
 
@@ -389,20 +390,20 @@ body {
     margin-top: 1rem;
   }
   .card_title h1 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   
   .card_text {
     margin-top: 0.5rem;
   }
   .card_text p {
-    color: #555;
+    color: #b3b3b3;
     margin-top: 0.6rem;
     margin-bottom: 15px;
   }
   
   .card_overview {
-    width: 400px;
+    width: 1000px;
     margin-top: 2.5rem;
   }
   .card_overview p {
@@ -442,9 +443,180 @@ body {
     border-radius: 38px;
   }
 
+.project2 {
+    margin-top: 8rem;
+    margin-left: 24rem;
+    cursor: pointer;
+}
+
+.card2 {
+    width: 1800px;
+    height: 1900px;
+    border: 1px solid #1e1e1e;
+    border-radius: 13px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden; 
+    transition: transform 0.4s ease-in-out;
+  }
+
+  .card2:hover {
+    transform: scale(1.05); 
+  }
   
-  .card-button:hover {
-    background-color: #0056b3;
+  .card2 img {
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+  
+  .card-body {
+    padding: 15px;
+    margin-left: 2rem;
+  }
+ 
+  .card2_title {
+    margin-top: 1rem;
+  }
+  .card2_title h1 {
+    font-size: 3rem;
+  }
+  
+  .card2_text {
+    margin-top: 0.5rem;
+  }
+  .card2_text p {
+    color: #b3b3b3;
+    margin-top: 0.6rem;
+    margin-bottom: 15px;
+  }
+  
+  .card2_overview {
+    width: 1000px;
+    margin-top: 2.5rem;
+  }
+  .card2_overview p {
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    color: #b3b3b3;
+  }
+
+  .tech2_stack {
+    color: #b3b3b3;
+    margin-top: 1.7rem;
+  }
+
+  .tech2_stack_title h3 {
+    font-size: 1.5rem;
+  }
+
+  .tech2_stack ul {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin-top: 1rem;
+    margin-left: 1.7rem;
+  }
+
+  .project2_redirect_button {
+    margin-top: 2rem;
+    font-weight: 500;
+
+  }
+  .project2_redirect_button a{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 38px;
+  }
+
+  .project3 {
+    margin-top: 8rem;
+    margin-left: 24rem;
+    cursor: pointer;
+}
+
+.card3 {
+    width: 1800px;
+    height: 1900px;
+    border: 1px solid #1e1e1e;
+    border-radius: 13px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden; 
+    transition: transform 0.4s ease-in-out;
+  }
+
+  .card3:hover {
+    transform: scale(1.05); 
+  }
+  
+  .card3 img {
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+  
+  .card3-body {
+    padding: 15px;
+    margin-left: 2rem;
+  }
+ 
+  .card3_title {
+    margin-top: 1rem;
+  }
+  .card3_title h1 {
+    font-size: 3rem;
+  }
+  
+  .card3_text {
+    margin-top: 0.5rem;
+  }
+  .card3_text p {
+    color: #b3b3b3;
+    margin-top: 0.6rem;
+    margin-bottom: 15px;
+  }
+  
+  .card3_overview {
+    width: 1000px;
+    margin-top: 2.5rem;
+  }
+  .card3_overview p {
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    color: #b3b3b3;
+  }
+
+  .tech3_stack {
+    color: #b3b3b3;
+    margin-top: 1.7rem;
+  }
+
+  .tech3_stack_title h3 {
+    font-size: 1.5rem;
+  }
+
+  .tech3_stack ul {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin-top: 1rem;
+    margin-left: 1.7rem;
+  }
+
+  .project3_redirect_button {
+    margin-top: 2rem;
+    font-weight: 500;
+
+  }
+  .project3_redirect_button a{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 38px;
   }
 
 /* Responsive Grid for smaller screens */
@@ -722,8 +894,8 @@ body {
 
     .card {
         margin-top: 6rem;
-        width: 330px;
-        height: 930px;
+        width: 530px;
+        height: 970px;
         border: 1px solid #1e1e1e;
         border-radius: 13px;
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
@@ -781,11 +953,11 @@ body {
       }
     
       .tech_stack_title h3 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
       }
     
       .tech_stack ul {
-        font-size: 1.2rem;
+        font-size: 1rem;
         line-height: 2rem;
         margin-top: 1rem;
         margin-left: 1.7rem;
