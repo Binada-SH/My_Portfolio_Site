@@ -355,12 +355,23 @@ body {
     text-transform: uppercase;
 }
 
+.project1 {
+    margin-left: 8rem;
+    cursor: pointer;
+}
+
 .card {
-    width: 300px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    width: 500px;
+    height: 1000px;
+    border: 1px solid #1e1e1e;
+    border-radius: 13px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    transition: transform 0.4s ease-in-out;
+  }
+
+  .card:hover {
+    transform: scale(1.05); 
   }
   
   .card img {
@@ -371,26 +382,66 @@ body {
   
   .card-body {
     padding: 15px;
+    margin-left: 2rem;
+  }
+ 
+  .card_title {
+    margin-top: 1rem;
+  }
+  .card_title h1 {
+    font-size: 2rem;
   }
   
-  .card-title {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+  .card_text {
+    margin-top: 0.5rem;
   }
-  
-  .card-text {
+  .card_text p {
     color: #555;
+    margin-top: 0.6rem;
     margin-bottom: 15px;
   }
   
-  .card-button {
+  .card_overview {
+    width: 400px;
+    margin-top: 2.5rem;
+  }
+  .card_overview p {
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    color: #b3b3b3;
+  }
+
+  .tech_stack {
+    color: #b3b3b3;
+    margin-top: 1.7rem;
+  }
+
+  .tech_stack_title h3 {
+    font-size: 1.5rem;
+  }
+
+  .tech_stack ul {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin-top: 1rem;
+    margin-left: 1.7rem;
+  }
+
+  .project_redirect_button {
+    margin-top: 2rem;
+    font-weight: 500;
+
+  }
+  .project_redirect_button a{
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 38px;
   }
+
   
   .card-button:hover {
     background-color: #0056b3;
