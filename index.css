@@ -895,8 +895,9 @@ body {
 
     .card {
         margin-top: 6rem;
-        width: 530px;
-        height: 970px;
+        margin-left: 4rem;
+        width: 1100px;
+        height: 1570px;
         border: 1px solid #1e1e1e;
         border-radius: 13px;
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
