@@ -31,7 +31,8 @@ body {
 
 .navbar {
     position: fixed;
-    width: 100%;
+    width: 540px;
+    height: 8px;
     margin-top: 4rem;
     margin-left: 100rem;
     display: flex;
@@ -40,6 +41,16 @@ body {
     padding: 1.5rem 0;
     z-index: 1;
     animation: fadeUpBottom 0.4s ease-out forwards;
+    background-color: rgba(0, 0, 0, 0.2); /* Initial semi-transparent background */
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease, border-radius 0.3s ease;
+}
+
+.navbar.scrolled {
+    background-color: rgba(30, 30, 30, 0.8); 
+    backdrop-filter: blur(3px); 
+    border-radius:  13px 13px; 
+    width: 540px;
+    height: 8px;
 }
 
 .logo {
@@ -630,10 +641,20 @@ body {
     .navbar {
         margin-top: -0.8rem;
         margin-left: 40rem;
+        width: 480px;
+        height: 8px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 1.5rem 0;
+    }
+
+    .navbar.scrolled {
+        background-color: rgba(30, 30, 30, 0.8); 
+        backdrop-filter: blur(3px); 
+        border-radius:  13px 13px; 
+        width: 480px;
+        height: 8px;
     }
 
     .nav-menu {
