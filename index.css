@@ -41,7 +41,7 @@ body {
     padding: 1.5rem 0;
     z-index: 1;
     animation: fadeUpBottom 0.4s ease-out forwards;
-    background-color: rgba(0, 0, 0, 0.2); /* Initial semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.2); 
     transition: background-color 0.3s ease, backdrop-filter 0.3s ease, border-radius 0.3s ease;
 }
 
