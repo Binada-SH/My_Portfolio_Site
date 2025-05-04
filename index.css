@@ -1262,6 +1262,11 @@ body {
         margin-right: 30px;
     }
 
+    .navbar.scrolled {
+      background: none;
+      backdrop-filter: blur(0px);
+    }
+
     .nav-menu {
         position: fixed;
         right: -100%; /* Change from left to right */
@@ -1289,7 +1294,7 @@ body {
         display: block;
         z-index: 11;
         position: relative;
-        margin-right: 2.6rem;
+        margin-right: 4.8rem;
     }
 
     .menu-toggle.active .bar:nth-child(2) {
