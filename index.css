@@ -1382,8 +1382,87 @@ body {
         align-items: center;
     }
     
+    .project_title {
+      margin-top: -5rem;
+      align-items: center;
+    }
+
+    .project_title h1 {
+      font-size: 2rem;
+    }
+    
     .container_3 {
-        display: block;
+      display: block;
+    }
+
+    .card {
+      width: 340px;
+      height: 960px;
+      margin-left: -3.3rem;
+      margin-top: -4rem;
+    }
+
+    .card_title {
+      margin-top: 1rem;
+      margin-left: -2rem;
+    }
+    .card_title h1 {
+      text-align: center;
+      font-size: 1.5rem;
+    }
+    
+    .card_text {
+      margin-top: 0.5rem;
+      margin-left: -0.7rem;
+      width: 276px;
+    }
+    .card_text p {
+      color: #555;
+      font-size: 0.93rem;
+      margin-top: 0.6rem;
+      margin-bottom: 15px;
+    }
+    
+    .card_overview {
+      width: 276px;
+      margin-left: -1rem;
+      margin-top: 2.5rem;
+    }
+    .card_overview p {
+      text-align: justify;
+      font-size: 1rem;
+      line-height: 1.6rem;
+      color: #b3b3b3;
+    }
+  
+    .tech_stack {
+      color: #b3b3b3;
+      margin-top: 1.7rem;
+    }
+  
+    .tech_stack_title h3 {
+      font-size: 1.5rem;
+    }
+  
+    .tech_stack ul {
+      font-size: 1.2rem;
+      line-height: 2rem;
+      margin-top: 1rem;
+      margin-left: 1.7rem;
+    }
+  
+    .project_redirect_button {
+      margin-top: 2rem;
+      font-weight: 500;
+  
+    }
+    .project_redirect_button a{
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #ffffff;
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+      border-radius: 38px;
     }
 }
 
