@@ -1406,6 +1406,7 @@ body {
       margin-top: 1rem;
       margin-left: -2rem;
     }
+
     .card_title h1 {
       text-align: center;
       font-size: 1.5rem;
@@ -1464,6 +1465,149 @@ body {
       text-decoration: none;
       border-radius: 38px;
     }
+
+    .card2 {
+      width: 340px;
+      height: 960px;
+      margin-left: -3.3rem;
+      margin-top: -4rem;
+    }
+   
+    .card2_title {
+      width: 320px;
+      margin-top: 1rem;
+      margin-left: -2rem;
+    }
+    .card2_title h1 {
+      text-align: center;
+      font-size: 1.5rem;
+      }
+    
+    .card2_text {
+      margin-top: 0.5rem;
+      margin-left: -0.7rem;
+      width: 276px;
+    }
+    .card2_text p {
+      color: #555;
+      font-size: 0.93rem;
+      margin-top: 0.6rem;
+      margin-bottom: 15px;
+    }
+    
+    .card2_overview {
+      width: 276px;
+      margin-left: -1rem;
+      margin-top: 2.5rem;
+    }
+    .card2_overview p {
+      text-align: justify;
+      font-size: 1rem;
+      line-height: 1.6rem;
+      color: #b3b3b3;
+    }
+  
+    .tech2_stack {
+      color: #b3b3b3;
+      margin-top: 1.7rem;
+    }
+  
+    .tech2_stack_title h3 {
+      font-size: 1.5rem;
+    }
+  
+    .tech2_stack ul {
+      font-size: 1.2rem;
+      line-height: 2rem;
+      margin-top: 1rem;
+      margin-left: 1.7rem;
+    }
+  
+    .project2_redirect_button {
+      margin-top: 2rem;
+      font-weight: 500;
+  
+    }
+    .project2_redirect_button a{
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #ffffff;
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+      border-radius: 38px;
+    }
+
+    .card3 {
+      width: 340px;
+      height: 1100px;
+      margin-left: -3.3rem;
+      margin-top: -4rem;
+    }
+   
+    .card3_title {
+      width: 320px;
+      margin-top: 1rem;
+      margin-left: -2rem;
+    }
+    .card3_title h1 {
+      text-align: center;
+      font-size: 1.5rem;
+    }
+    
+    .card3_text {
+      margin-top: 0.5rem;
+      margin-left: -0.7rem;
+      width: 276px;
+    }
+    .card3_text p {
+      color: #555;
+      font-size: 0.93rem;
+      margin-top: 0.6rem;
+      margin-bottom: 15px;
+    }
+    
+    .card3_overview {
+      width: 276px;
+      margin-left: -1rem;
+      margin-top: 2.5rem;
+    }
+    .card3_overview p {
+      text-align: justify;
+      font-size: 1rem;
+      line-height: 1.6rem;
+      color: #b3b3b3;
+    }
+  
+    .tech3_stack {
+      color: #b3b3b3;
+      margin-top: 1.7rem;
+    }
+  
+    .tech3_stack_title h3 {
+      font-size: 1.5rem;
+    }
+  
+    .tech3_stack ul {
+      font-size: 1.2rem;
+      line-height: 2rem;
+      margin-top: 1rem;
+      margin-left: 1.7rem;
+    }
+  
+    .project3_redirect_button {
+      margin-top: 2rem;
+      font-weight: 500;
+  
+    }
+    .project3_redirect_button a{
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #ffffff;
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+      border-radius: 38px;
+    }
+  
 }
 
 @media screen and (max-width: 375px) {
