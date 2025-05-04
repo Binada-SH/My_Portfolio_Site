@@ -1610,6 +1610,372 @@ body {
   
 }
 
+@media screen and (max-width: 414px) {
+  body {
+      overflow-x: hidden;
+      background: #000000;
+  }
+
+  .container {
+      padding: 0.5rem;
+  }
+
+  .navbar {
+      margin-top: 1rem;
+      margin-right: 30px;
+  }
+
+  .navbar.scrolled {
+    background: none;
+    backdrop-filter: blur(0px);
+  }
+
+  .nav-menu {
+      position: fixed;
+      right: -100%; /* Change from left to right */
+      top: 0;
+      height: 100vh;
+      width: 70%; /* Adjust width as needed */
+      flex-direction: column;
+      background: rgba(0, 0, 0, 0.9);
+      text-align: center;
+      transition: 0.3s;
+      box-shadow: -10px 0 27px rgba(0, 0, 0, 0.05);
+      z-index: 10;
+      padding-top: 4rem;
+  }
+
+  .nav-menu.active {
+      right: 0; /* Change from left to right */
+  }
+
+  .nav-menu li {
+      margin: 2.5rem 0;
+  }
+
+  .menu-toggle {
+      display: block;
+      z-index: 11;
+      position: relative;
+      margin-right: 5.9rem;
+  }
+
+  .menu-toggle.active .bar:nth-child(2) {
+      opacity: 0;
+  }
+
+  .menu-toggle.active .bar:nth-child(1) {
+      transform: translateY(7px) rotate(45deg);
+  }
+
+  .menu-toggle.active .bar:nth-child(3) {
+      transform: translateY(-7px) rotate(-45deg);
+  }
+
+  .content {
+      width: auto;
+      margin: auto;
+      max-height: 100vh;
+      margin-top: 7rem;
+  }
+
+  .header h1 {
+      text-align: left;
+      font-size: 2.6rem;
+      margin-top: -3rem;
+      margin-left: 0.7rem;
+  }
+
+  .slogan h3 {
+      font-size: 1rem;
+      margin-top: -1rem;
+      margin-left: -1rem;
+      margin-bottom: 1.3rem;
+  }
+  
+  .cta-button {
+      margin-left: -9rem;
+      margin-top: -9rem;
+      scale: 0.6;
+      width: 86%;
+      padding: 0.8rem 1.5rem;
+  }
+
+  .social_icons {
+      margin-left: -13.7rem;
+      margin-top: -3rem;
+  }
+  .social_icons img{
+      scale: 0.9;
+  }
+
+  .copyrights {
+      scale: 0.9;
+      margin-top: 0.6rem;
+      margin-left: -15rem;
+  }
+
+  .skill_heading {
+      margin-top: -5rem;
+      align-items: center;
+  }
+
+  .skill_heading h1 {
+      font-size: 2rem;
+  }
+
+  .skill_container {
+      margin-top: 5rem;
+      margin-left: 0.7rem;
+      display: block;
+  }
+  .html {
+      margin-bottom: 2rem;
+  }
+  .container_2 {
+      display: block;
+  }
+
+  .skill_container > div {
+      background-color: #1d1d1d;
+      padding: 16px; 
+      border-radius: 23px;
+      width: 130%; 
+      height: 120px;
+      margin: 20px -2.3rem;
+      align-items: center;
+  }
+  
+  .project_title {
+    margin-top: -5rem;
+    align-items: center;
+  }
+
+  .project_title h1 {
+    font-size: 2rem;
+  }
+  
+  .container_3 {
+    display: block;
+  }
+
+  .card {
+    width: 340px;
+    height: 960px;
+    margin-left: -4.0rem;
+    margin-top: -4rem;
+  }
+
+  .card_title {
+    margin-top: 1rem;
+    margin-left: -2rem;
+  }
+
+  .card_title h1 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  .card_text {
+    margin-top: 0.5rem;
+    margin-left: -0.7rem;
+    width: 276px;
+  }
+  .card_text p {
+    color: #555;
+    font-size: 0.93rem;
+    margin-top: 0.6rem;
+    margin-bottom: 15px;
+  }
+  
+  .card_overview {
+    width: 276px;
+    margin-left: -1rem;
+    margin-top: 2.5rem;
+  }
+  .card_overview p {
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    color: #b3b3b3;
+  }
+
+  .tech_stack {
+    color: #b3b3b3;
+    margin-top: 1.7rem;
+  }
+
+  .tech_stack_title h3 {
+    font-size: 1.5rem;
+  }
+
+  .tech_stack ul {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin-top: 1rem;
+    margin-left: 1.7rem;
+  }
+
+  .project_redirect_button {
+    margin-top: 2rem;
+    font-weight: 500;
+
+  }
+  .project_redirect_button a{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 38px;
+  }
+
+  .card2 {
+    width: 340px;
+    height: 960px;
+    margin-left: -4rem;
+    margin-top: -4rem;
+  }
+ 
+  .card2_title {
+    width: 320px;
+    margin-top: 1rem;
+    margin-left: -2rem;
+  }
+  .card2_title h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    }
+  
+  .card2_text {
+    margin-top: 0.5rem;
+    margin-left: -0.7rem;
+    width: 276px;
+  }
+  .card2_text p {
+    color: #555;
+    font-size: 0.93rem;
+    margin-top: 0.6rem;
+    margin-bottom: 15px;
+  }
+  
+  .card2_overview {
+    width: 276px;
+    margin-left: -1rem;
+    margin-top: 2.5rem;
+  }
+  .card2_overview p {
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    color: #b3b3b3;
+  }
+
+  .tech2_stack {
+    color: #b3b3b3;
+    margin-top: 1.7rem;
+  }
+
+  .tech2_stack_title h3 {
+    font-size: 1.5rem;
+  }
+
+  .tech2_stack ul {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin-top: 1rem;
+    margin-left: 1.7rem;
+  }
+
+  .project2_redirect_button {
+    margin-top: 2rem;
+    font-weight: 500;
+
+  }
+  .project2_redirect_button a{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 38px;
+  }
+
+  .card3 {
+    width: 340px;
+    height: 930px;
+    margin-left: -4rem;
+    margin-top: -4rem;
+  }
+ 
+  .card3_title {
+    width: 320px;
+    margin-top: 1rem;
+    margin-left: -2rem;
+  }
+  .card3_title h1 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  .card3_text {
+    margin-top: 0.5rem;
+    margin-left: -0.7rem;
+    width: 276px;
+  }
+  .card3_text p {
+    color: #555;
+    font-size: 0.93rem;
+    margin-top: 0.6rem;
+    margin-bottom: 15px;
+  }
+  
+  .card3_overview {
+    width: 276px;
+    margin-left: -1rem;
+    margin-top: 2.5rem;
+  }
+  .card3_overview p {
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    color: #b3b3b3;
+  }
+
+  .tech3_stack {
+    color: #b3b3b3;
+    margin-top: 1.7rem;
+  }
+
+  .tech3_stack_title h3 {
+    font-size: 1.5rem;
+  }
+
+  .tech3_stack ul {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin-top: 1rem;
+    margin-left: 1.7rem;
+  }
+
+  .project3_redirect_button {
+    margin-top: 2rem;
+    font-weight: 500;
+
+  }
+  .project3_redirect_button a{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 38px;
+  }
+
+}
+
+
+
 @media screen and (max-width: 375px) {
     body {
         overflow-x: hidden;
