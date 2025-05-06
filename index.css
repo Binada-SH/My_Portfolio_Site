@@ -646,9 +646,12 @@ body {
     height: 300px;
     background-color: #111;
   }
-  .footer_img {
-    display: flex;
-    justify-content: center;
+
+  .ft_img, .ft_title{
+    margin-top: auto;
+    padding-top: 3rem;
+    padding-left: 24rem;
+
   }
 
 /* Responsive Grid for smaller screens */
