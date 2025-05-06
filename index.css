@@ -1423,7 +1423,6 @@ body {
     .card {
       width: 340px;
       height: 960px;
-      margin-left: -3.3rem;
       margin-top: -4rem;
     }
 
@@ -1494,7 +1493,6 @@ body {
     .card2 {
       width: 340px;
       height: 960px;
-      margin-left: -3.3rem;
       margin-top: -4rem;
     }
    
@@ -1565,7 +1563,6 @@ body {
     .card3 {
       width: 340px;
       height: 1100px;
-      margin-left: -3.3rem;
       margin-top: -4rem;
     }
    
@@ -1783,13 +1780,14 @@ body {
   }
   
   .container_3 {
-    display: block;
+    display: grid;
+    align-items: center;
+    justify-content: center;
   }
 
   .card {
     width: 340px;
     height: 960px;
-    margin-left: -4.0rem;
     margin-top: -4rem;
   }
 
@@ -1860,7 +1858,6 @@ body {
   .card2 {
     width: 340px;
     height: 960px;
-    margin-left: -4rem;
     margin-top: -4rem;
   }
  
@@ -1931,7 +1928,6 @@ body {
   .card3 {
     width: 340px;
     height: 930px;
-    margin-left: -4rem;
     margin-top: -4rem;
   }
  
