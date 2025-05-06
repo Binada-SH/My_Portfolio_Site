@@ -368,8 +368,10 @@ body {
 }
 
 .project1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 8rem;
-    margin-left: 24rem;
     cursor: pointer;
 }
 
@@ -2024,7 +2026,9 @@ body {
     .menu-toggle {
         display: block;
         z-index: 11;
+        scale: 0.8;
         position: relative;
+        margin-right: 8.5rem;
     }
 
     .menu-toggle.active .bar:nth-child(2) {
@@ -2041,7 +2045,8 @@ body {
 
     .content {
         width: auto;
-        margin: auto;
+        margin-left: -1rem;
+        margin-top: 6.3rem;
         max-height: 100vh;
         
     }
@@ -2062,14 +2067,14 @@ body {
     
     .cta-button {
         margin-left: -6rem;
-        margin-top: -9rem;
+        margin-top: -6rem;
         scale: 0.5;
         width: 106%;
         padding: 0.8rem 1.5rem;
     }
 
     .social_icons {
-        margin-left: -7rem;
+        margin-left: -8.6rem;
         margin-top: -3.4rem;
     }
     .social_icons img{
@@ -2079,7 +2084,7 @@ body {
     .copyrights {
         scale: 0.7;
         margin-top: -0.2rem;
-        margin-left: -14rem;
+        margin-left: -11rem;
     }
 
     .skill_container > div {
