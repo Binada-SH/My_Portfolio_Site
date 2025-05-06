@@ -1842,6 +1842,7 @@ body {
   }
 
   .project_redirect_button {
+    margin: auto 3.5rem;
     margin-top: 2rem;
     font-weight: 500;
 
@@ -1912,6 +1913,7 @@ body {
   }
 
   .project2_redirect_button {
+    margin: auto 3.5rem;
     margin-top: 2rem;
     font-weight: 500;
 
@@ -1982,6 +1984,7 @@ body {
   }
 
   .project3_redirect_button {
+    margin: auto 3.5rem;
     margin-top: 2rem;
     font-weight: 500;
 
