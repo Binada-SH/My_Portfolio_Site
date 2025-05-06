@@ -458,6 +458,9 @@ body {
   }
 
 .project2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 8rem;
     cursor: pointer;
 }
@@ -545,8 +548,10 @@ body {
   }
 
   .project3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 8rem;
-    margin-left: 24rem;
     cursor: pointer;
 }
 
