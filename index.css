@@ -459,7 +459,6 @@ body {
 
 .project2 {
     margin-top: 8rem;
-    margin-left: 24rem;
     cursor: pointer;
 }
 
@@ -767,6 +766,8 @@ body {
     .skill_container {
         margin-top: 5rem;
         display: grid;
+        align-items: center;
+        justify-content: center;
         grid-template-columns: repeat(3, 1fr);
         gap: 60px; /* Increased gap for padding */
     }
@@ -921,7 +922,9 @@ body {
     }
 
     .project1 {
-        margin-left: 6.3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         cursor: pointer;
     }
 
@@ -931,7 +934,6 @@ body {
 
     .card {
         margin-top: 6rem;
-        margin-left: 4rem;
         width: 1100px;
         height: 1370px;
         border: 1px solid #1e1e1e;
@@ -1015,13 +1017,14 @@ body {
       }
     
       .project2 {
-        margin-left: 6.3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         cursor: pointer;
     }
     
     .card2 {
         margin-top: 6rem;
-        margin-left: 4rem;
         width: 1100px;
         height: 1370px;
         border: 1px solid #1e1e1e;
@@ -1104,13 +1107,14 @@ body {
       }
     
       .project3 {
-        margin-left: 6.3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         cursor: pointer;
     }
     
     .card3 {
         margin-top: 6rem;
-        margin-left: 4rem;
         width: 1100px;
         height: 1310px;
         border: 1px solid #1e1e1e;
