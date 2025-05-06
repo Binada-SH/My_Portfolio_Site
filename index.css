@@ -211,6 +211,8 @@ body {
 .skill_container {
     margin-top: 10rem;
     display: grid;
+    align-items: center;
+    justify-content: center;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px; /* Increased gap for padding */
 }
