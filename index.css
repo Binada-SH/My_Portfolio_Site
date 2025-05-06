@@ -1753,6 +1753,8 @@ body {
       margin-top: 5rem;
       margin-left: 0.7rem;
       display: block;
+      align-items: center;
+      justify-content: center;
   }
   .html {
       margin-bottom: 2rem;
