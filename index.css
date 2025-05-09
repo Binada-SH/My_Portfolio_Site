@@ -379,14 +379,28 @@ body {
 }
 
 .lcard {
+    position: relative;
     width: 1800px;
     height: 1900px;
-    border: 1px solid #1e1e1e;
+    border: 3px solid #ee3939;
     border-radius: 13px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     overflow: hidden; 
     transition: transform 0.4s ease-in-out;
   }
+
+  .badge {
+      position: absolute;
+      width: 80px;
+      top: 10px;
+      left: 10px;
+      background-color: gold;
+      color: #000;
+      padding: 5px 10px;
+      font-weight: bold;
+      border-radius: 50px;
+      font-size: 12px;
+    }
 
   .lcard:hover {
     transform: scale(1.05); 
@@ -1035,18 +1049,18 @@ body {
     }
 
     .lcard {
+        position: relative;
         margin-top: 6rem;
         width: 1100px;
         height: 1370px;
         border: 3px solid #ee3939;
         border-radius: 13px;
-        box-shadow: 2px 2px 5px rgba(203, 58, 58, 0.1);
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
         overflow: hidden;
         transition: transform 0.4s ease-in-out;
     }
 
     .badge {
-      display: none;
       position: absolute;
       top: 10px;
       left: 10px;
@@ -1062,11 +1076,7 @@ body {
     .lcard:hover {
         transform: scale(1.05); 
     }
-
-    .lcard:hover .badge {
-      display: block; 
-}
-
+    
     .lcard img {
         width: 100%;
         display: block;
@@ -1630,8 +1640,9 @@ body {
 
     /* Latest Project */
     .lcard {
+      position: relative;
       width: 340px;
-      height: 960px;
+      height: 880px;
       margin-top: -4rem;
     }
 
@@ -1693,6 +1704,7 @@ body {
     .lproject_redirect_button {
       margin-top: 2rem;
       font-weight: 500;
+      margin-left: 3.5rem;
   
     }
     .lproject_redirect_button a{
@@ -1763,7 +1775,7 @@ body {
     .project_redirect_button {
       margin-top: 2rem;
       font-weight: 500;
-  
+      margin-left: 3.5rem;
     }
     .project_redirect_button a{
       display: inline-block;
@@ -1833,6 +1845,7 @@ body {
     .project2_redirect_button {
       margin-top: 2rem;
       font-weight: 500;
+      margin-left: 3.5rem;
   
     }
     .project2_redirect_button a{
@@ -1846,7 +1859,7 @@ body {
 
     .card3 {
       width: 340px;
-      height: 1100px;
+      height: 920px;
       margin-top: -4rem;
     }
    
@@ -1903,7 +1916,7 @@ body {
     .project3_redirect_button {
       margin-top: 2rem;
       font-weight: 500;
-  
+      margin-left: 3.5rem;
     }
     .project3_redirect_button a{
       display: inline-block;
@@ -2077,6 +2090,7 @@ body {
 
   /* Latest Project */
   .lcard {
+    position: relative;
     width: 340px;
     height: 960px;
     margin-top: -4rem;
