@@ -1635,6 +1635,11 @@ body {
       margin-top: -4rem;
     }
 
+    .lcard .badge {
+    margin: auto;
+    position: absolute;
+  }
+
     .lcard_title {
       margin-top: 1rem;
       margin-left: -2rem;
@@ -1907,6 +1912,10 @@ body {
       color: rgb(0, 0, 0);
       text-decoration: none;
       border-radius: 38px;
+    }
+
+    .footer_container {
+      overflow: hidden;
     }
   
 }
