@@ -1628,6 +1628,77 @@ body {
       display: block;
     }
 
+    /* Latest Project */
+    .lcard {
+      width: 340px;
+      height: 960px;
+      margin-top: -4rem;
+    }
+
+    .lcard_title {
+      margin-top: 1rem;
+      margin-left: -2rem;
+    }
+
+    .lcard_title h1 {
+      text-align: center;
+      font-size: 1.5rem;
+    }
+    
+    .lcard_text {
+      margin-top: 0.5rem;
+      margin-left: -0.7rem;
+      width: 276px;
+    }
+    .lcard_text p {
+      color: #555;
+      font-size: 0.93rem;
+      margin-top: 0.6rem;
+      margin-bottom: 15px;
+    }
+    
+    .lcard_overview {
+      width: 276px;
+      margin-left: -1rem;
+      margin-top: 2.5rem;
+    }
+    .lcard_overview p {
+      text-align: justify;
+      font-size: 1rem;
+      line-height: 1.6rem;
+      color: #b3b3b3;
+    }
+  
+    .ltech_stack {
+      color: #b3b3b3;
+      margin-top: 1.7rem;
+    }
+  
+    .ltech_stack_title h3 {
+      font-size: 1.5rem;
+    }
+  
+    .ltech_stack ul {
+      font-size: 1.2rem;
+      line-height: 2rem;
+      margin-top: 1rem;
+      margin-left: 1.7rem;
+    }
+  
+    .lproject_redirect_button {
+      margin-top: 2rem;
+      font-weight: 500;
+  
+    }
+    .lproject_redirect_button a{
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #ffffff;
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+      border-radius: 38px;
+    }
+
     .card {
       width: 340px;
       height: 960px;
