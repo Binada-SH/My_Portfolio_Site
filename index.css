@@ -2283,7 +2283,9 @@ body {
     text-decoration: none;
     border-radius: 38px;
   }
-
+  .footer_container {
+    overflow: hidden;
+  }
 }
 
 
