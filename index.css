@@ -748,16 +748,50 @@ body {
   .footer_container {
     margin-top: 10rem;
     width: auto;
-    height: 300px;
+    height: auto;
     background-color: #111;
   }
 
-  .ft_img, .ft_title{
-    margin-top: auto;
-    padding-top: 3rem;
-    padding-left: 24rem;
-
+  .ft_img img {
+    margin-left: -20rem;
+    margin-top: 2.5rem;
+    scale: 0.3;
+    opacity: 60%;
   }
+
+  .ft_title h4 {
+    margin-top: -4rem;
+    margin-left: 7.5rem;
+    font-family: 'jura';
+    font-size: 17px;
+    font-style: italic;
+    opacity: 20%;
+  }
+
+  .social_section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: -7.1rem;
+    padding-bottom: 3rem;
+    padding-left:40rem;
+}
+
+.social_icon {
+    opacity: 20%;
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: opacity 0.3s ease;
+}
+
+.social_section h4 {
+  margin-top: -1.6rem;
+  padding-left: 3rem;
+}
+
+
+
 
 /* Responsive Grid for smaller screens */
 @media screen and (min-resolution: 2x) {
