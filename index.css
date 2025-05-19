@@ -756,7 +756,7 @@ body {
     margin-left: -20rem;
     margin-top: 2.5rem;
     scale: 0.3;
-    opacity: 60%;
+    opacity: 35%;
   }
 
   .ft_title h4 {
@@ -789,6 +789,31 @@ body {
   margin-top: -1.6rem;
   padding-left: 3rem;
 }
+
+.msg h3{
+  font-size: 35px;
+  opacity: 20%;
+  margin-top: -8rem;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+
+.navlinks_again {
+  float: right;
+  padding-right: 36rem;
+  margin-top: -11.5rem;
+}
+
+.navlinks_again .nav-menu {
+  opacity: 20%;
+  line-height: 1.8rem;
+  flex-direction: column;
+}
+
+.navlinks_again .nav-menu a {
+  font-size: 14px;
+}
+
 
 
 
