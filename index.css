@@ -2323,8 +2323,8 @@ body {
         position: fixed;
         right: -100%; /* Change from left to right */
         top: 0;
-        height: 100vh;
-        width: 70%; /* Adjust width as needed */
+        height: 90vh;
+        width: 60%; /* Adjust width as needed */
         flex-direction: column;
         background: rgba(0, 0, 0, 0.9);
         text-align: center;
@@ -2415,4 +2415,6 @@ body {
         margin: 20px -2.7rem;
         align-items: center;
     }
+    
+
 }
