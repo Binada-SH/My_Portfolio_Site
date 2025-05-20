@@ -1399,6 +1399,41 @@ body {
         text-decoration: none;
         border-radius: 38px;
       }  
+
+      .ft_img img{
+        margin-left: -24rem;
+        margin-top: -2rem;
+        scale: 0.13;
+      }
+
+      .ft_title h4 {
+        scale: 0.6;
+        margin-top: -5rem;
+        margin-left: -12.3rem;
+      }
+
+      .msg h3 {
+        font-size: 18px;
+      }
+
+      .social_section {
+        padding-top: 1.5rem;
+        margin-left: -25rem;
+        scale: 0.6;
+      }
+
+      .navlinks_again .nav-menu a {
+        font-size: 8px;
+        margin: auto;
+      }
+
+      .navlinks_again .nav-menu {
+        float: right;
+        padding-top: 2rem;
+        margin-right: -20rem;
+      }
+
+   
 }
 
 @media screen and (max-width: 768px) {
@@ -2361,6 +2396,27 @@ body {
   .footer_container {
     overflow: hidden;
   }
+
+  .ft_img img{
+    margin-top: -1rem;
+    scale: 0.26;
+  }
+
+   .social_section a{
+    display: flex;
+    scale: 0.1;
+    margin-left: auto;
+    margin-top: auto;
+    padding-left: auto;
+    
+  }
+
+  .msg {
+    padding-top: 4rem;
+    scale: 0.8;
+  }
+
+
 }
 
 
