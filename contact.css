@@ -112,111 +112,58 @@ body {
     background-color: white;
     transition: all 0.3s ease;
 }
-.container {
-        max-width: 2200px;
-        margin: 0 auto;
-        padding: 4rem;
-    }
-    .navbar {
-        margin-top: -0.8rem;
-        margin-left: 40rem;
-        width: 480px;
-        height: 8px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 1.5rem 0;
-    }
 
-    .navbar.scrolled {
-        background-color: rgba(30, 30, 30, 0.8); 
-        backdrop-filter: blur(3px); 
-        border-radius:  13px 13px; 
-        width: 480px;
-        height: 8px;
-    }
-
-    .nav-menu {
-        display: flex;
-        list-style: none;
-    }
-    
-    .nav-menu li {
-        margin-left: 2rem;
-    }
-    
-    .nav-menu a {
-        text-decoration: none;
-        color: white;
-        font-size: 15px;
-        position: relative;
-        transition: all 0.3s ease;
-    }
-    
-    .nav-menu a:hover {
-        color: #ccc;
-    }
-    
-    .nav-menu a::after {
-        content: '';
-        position: absolute;
-        width: 0;
-        height: 2px;
-        background: white;
-        bottom: -5px;
-        left: 0;
-        transition: width 0.3s ease;
-    }
-    
-    .nav-menu a:hover::after {
-        width: 100%;
-    }
-
-    .about-section{
-        margin-top: 7rem;
-    }
-
-    .about-text h1 {
-        justify-content: center;
-        text-align: center;
-    }
-
-    .about-description {
-        margin: auto;
-        justify-content: center;
-        max-width: 2560px;
-        width: 800px;
-        margin-top: 6rem;
-    }
-    
-    .about-description p{
-        line-height: 2rem;
-        text-align: justify;
-    }
-
-    .social-icons {
-    display: flex;
-    justify-content: center;
-    gap: 3rem; 
-    margin-top: 6rem;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  font-family: 'Jura', sans-serif;
+  color: #fff;
 }
 
-.social-icons a img {
-    opacity: 50%;
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-    
-    .footer_container {
-    margin-top: -2rem;
-    justify-content: center;
-  }
+.contact-box {
+  background-color: #2e2e2e;
+  padding: 40px 50px;
+  border-radius: 16px;
+  text-align: center;
+  width: 320px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
 
-  .footer_container h1 {
-    width: auto;
-    line-height: 2rem;
-    font-family: jura;
-    color: #282828;
-    font-size: 20px;
-    text-align: center;
-  }
+.contact-box h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
 
+.contact-item {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.contact-label {
+  display: block;
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 6px;
+  padding-left: 6px;
+}
+
+.contact-link {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  text-decoration: none;
+  color: #00e0ff;
+  transition: 0.3s;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
