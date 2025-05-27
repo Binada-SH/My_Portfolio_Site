@@ -744,75 +744,19 @@ body {
     text-decoration: none;
     border-radius: 38px;
   }
-
   .footer_container {
-    margin-top: 10rem;
+    margin-top: 4rem;
+    justify-content: center;
+  }
+
+  .footer_container h1 {
     width: auto;
-    height: auto;
-    background-color: #111;
+    line-height: 2rem;
+    font-family: jura;
+    color: #282828;
+    font-size: 20px;
+    text-align: center;
   }
-
-  .ft_img img {
-    margin-left: -20rem;
-    margin-top: 2.5rem;
-    scale: 0.3;
-    opacity: 35%;
-  }
-
-  .ft_title h4 {
-    margin-top: -4rem;
-    margin-left: 7.5rem;
-    font-family: 'jura';
-    font-size: 17px;
-    font-style: italic;
-    opacity: 20%;
-  }
-
-  .social_section {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    margin-top: -7.1rem;
-    padding-bottom: 3rem;
-    padding-left:40rem;
-}
-
-.social_icon {
-    opacity: 20%;
-    color: white;
-    text-decoration: none;
-    font-size: 0.9rem;
-    transition: opacity 0.3s ease;
-}
-
-.social_section h4 {
-  margin-top: -1.6rem;
-  padding-left: 3rem;
-}
-
-.msg h3{
-  font-size: 35px;
-  opacity: 20%;
-  margin-top: -8rem;
-  padding-bottom: 5rem;
-  text-align: center;
-}
-
-.navlinks_again {
-  float: right;
-  padding-right: 36rem;
-  margin-top: -11.5rem;
-}
-
-.navlinks_again .nav-menu {
-  opacity: 20%;
-  line-height: 1.8rem;
-  flex-direction: column;
-}
-
-.navlinks_again .nav-menu a {
-  font-size: 14px;
-}
 
 
 
@@ -2532,6 +2476,8 @@ body {
         margin: 20px -2.7rem;
         align-items: center;
     }
+
+
     
 
 }
