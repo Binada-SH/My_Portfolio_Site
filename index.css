@@ -785,7 +785,7 @@ body {
         background-color: rgba(30, 30, 30, 0.8); 
         backdrop-filter: blur(3px); 
         border-radius:  13px 13px; 
-        width: 480px;
+        width: 390px;
         height: 8px;
     }
 
@@ -1343,40 +1343,7 @@ body {
         color: rgb(0, 0, 0);
         text-decoration: none;
         border-radius: 38px;
-      }  
-
-      .ft_img img{
-        margin-left: -24rem;
-        margin-top: -2rem;
-        scale: 0.13;
-      }
-
-      .ft_title h4 {
-        scale: 0.6;
-        margin-top: -5rem;
-        margin-left: -12.3rem;
-      }
-
-      .msg h3 {
-        font-size: 18px;
-      }
-
-      .social_section {
-        padding-top: 1.5rem;
-        margin-left: -25rem;
-        scale: 0.6;
-      }
-
-      .navlinks_again .nav-menu a {
-        font-size: 8px;
-        margin: auto;
-      }
-
-      .navlinks_again .nav-menu {
-        float: right;
-        padding-top: 2rem;
-        margin-right: -20rem;
-      }
+      } 
 
    
 }

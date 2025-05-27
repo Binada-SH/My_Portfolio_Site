@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Jura', sans-serif;
-    background: linear-gradient(135deg, #000000, #242424);
+    background-color: #000000;
     color: white;
     height: 100vh;
     overflow: hidden;
@@ -20,12 +20,37 @@ body {
 }
 
 .navbar {
+    position: fixed;
+    z-index: 10;
+    width: 540px;
+    height: 8px;
     margin-top: 4rem;
-    margin-left: 100rem;
+    margin-left: 40rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem 0;
+    z-index: 1;
+    animation: fadeUpBottom 0.4s ease-out forwards;
+    background-color: rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease, border-radius 0.3s ease;
+}
+
+.navbar.scrolled {
+    background-color: rgba(30, 30, 30, 0.8); 
+    backdrop-filter: blur(3px); 
+    border-radius:  13px 13px; 
+    width: 540px;
+    height: 8px;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 700;
+    background: linear-gradient(90deg, #fff, #aaa);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
 .nav-menu {
@@ -78,7 +103,6 @@ body {
     background-color: white;
     transition: all 0.3s ease;
 }
-
 .content {
     display: block;
     justify-content: space-between;
