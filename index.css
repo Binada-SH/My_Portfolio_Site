@@ -1473,6 +1473,9 @@ body {
         z-index: 10;
         padding-top: 4rem;
     }
+    .navbar.scrolled {
+      position: fixed;
+    }
 
     .nav-menu.active {
         right: 0; /* Change from left to right */
@@ -2399,7 +2402,7 @@ body {
         z-index: 11;
         scale: 0.8;
         position: relative;
-        margin-right: 8.5rem;
+        padding-right: 8.5rem;
     }
 
     .menu-toggle.active .bar:nth-child(2) {
