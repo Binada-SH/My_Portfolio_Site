@@ -49,7 +49,7 @@ body {
     background-color: rgba(30, 30, 30, 0.8); 
     backdrop-filter: blur(3px); 
     border-radius:  13px 13px; 
-    width: 540px;
+    width: 430px;
     height: 8px;
 }
 
@@ -266,7 +266,6 @@ body {
     margin-bottom: 8px;
 }
 
-/* Example progress bar fill (adjust width as needed) */
 .skill_container > div .html_pgr_bar::before {
     content: "";
     display: block;
@@ -744,26 +743,50 @@ body {
     text-decoration: none;
     border-radius: 38px;
   }
-  
-  .footer_container {
-    margin-top: 4rem;
-    justify-content: center;
-  }
 
-  .footer_container h1 {
-    width: auto;
-    line-height: 2rem;
-    font-family: jura;
-    color: #282828;
-    font-size: 20px;
-    text-align: center;
-  }
+.contact_section {
+    text-align: center; 
+    padding: 40px 20px;
+    background-color: #131313; 
+    border-top: 1px solid #6b6969;
+}
 
+.contact_content h2 {
+    font-family: 'Jura', sans-serif; 
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #afafaf;
+}
 
+.contact_content p {
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #838282;
+}
 
+.contact_social_icons {
+    margin-top: 20px;
+    display: flex; 
+    justify-content: center; 
+    gap: 15px; 
+}
 
+.contact_content h4 {
+    color: #838282;
+    margin-top: 2rem;
+}
 
-/* Responsive Grid for smaller screens */
+.contact_social_icons img {
+  opacity: 40%;
+    border-radius: 50%; 
+    transition: transform 0.3s ease-in-out; 
+}
+
+.contact_social_icons img:hover {
+    transform: scale(1.1); 
+}
+
 @media screen and (min-resolution: 2x) {
     .container {
         max-width: 2200px;
